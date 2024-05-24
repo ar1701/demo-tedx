@@ -1,0 +1,138 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.alert {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1100; 
+}
+
+nav.navbar {
+    width: 100%;
+    height: 73px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.navbar .nav-icon {
+    width: 200px;
+    height: 60%;
+    border-radius: 10%;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar  a {
+    color: rgb(10, 168, 147);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    margin-right: 5px;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffcc00;
+}
+
+.mainBody {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #fff;
+    transition: 700ms;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 16px 16px 16px rgba(6, 179, 72, 0.2);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+    color: rgb(117, 7, 62);
+    font-weight: 650;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 38%;
+
+
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ff2b06;
+    display: inline;
+}
+h5{
+    display: inline;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.customBtn {
+    width: 150px;
+    font-size: 16px;
+    padding: 2px;
+    color: white;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    box-shadow: 2px 2px 5px rgb(155, 89, 14);
+    transition: box-shadow 0.3s;
+}
+
+.customBtn:hover {
+    box-shadow: 2px 2px 5px rgb(222, 170, 17);
+    cursor: pointer;
+}

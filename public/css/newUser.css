@@ -1,0 +1,119 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.alert {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1100; 
+}
+
+nav.navbar {
+    width: 100%;
+    height: 73px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.navbar .nav-icon {
+    width: 200px;
+    height: 60%;
+    border-radius: 10%;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 6px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(10, 168, 147);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(218, 198, 198);
+}
+
+
+
+.navbar .nav-links a:hover {
+    color: #ffcc00;
+}
+
+.mainBody {
+    border: 1px solid brown;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-top: 3%;
+    margin-top: 10px;
+    transition: 800ms;
+}
+
+.mainBody:hover {
+    box-shadow: 2px 2px 20px rgb(101, 42, 165);
+}
+
+
+.customBtn {
+    width: 85px;
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    margin-right: 70px;
+    box-shadow: 2px 2px 5px rgb(155, 89, 14);
+    transition: box-shadow 0.3s;
+}
+
+.customBtn:hover {
+    box-shadow: 2px 2px 5px rgb(222, 170, 17);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    position: relative;
+    margin-top: 110px;
+    font-size: 40px;
+}
+
+.customForm{
+    margin-left: 74px !important;
+}
